@@ -3,12 +3,12 @@ import customtkinter
 import os
 
 
-customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
+customtkinter.set_appearance_mode("System")  
 customtkinter.set_default_color_theme(
     "blue"
-)  # Themes: blue (default), dark-blue, green
+) 
 
-app = customtkinter.CTk()  # create CTk window like you do with the Tk window
+app = customtkinter.CTk() 
 app.geometry("400x240")
 app.title("Love me!")
 
