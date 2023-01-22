@@ -2,7 +2,6 @@ import tkinter
 import customtkinter
 import os
 
-#  poetry run python ./lovepy/main.py
 
 customtkinter.set_appearance_mode("System")  # Modes: system (default), light, dark
 customtkinter.set_default_color_theme(
